@@ -8,8 +8,8 @@ public class FloydsTriangle {
         System.out.print("Enter  number:");
         int n = sc.nextInt();
         int a = 1;
-        for (int i = 1;i<=n;i++){ // rows
-            for(int j = 1;j<=i;j++){ // cols
+        for (int i = 1; i <= n; i++) { // rows
+            for (int j = 1; j <= i; j++) { // cols
                 System.out.print(a++ + " ");
             }
             System.out.println();

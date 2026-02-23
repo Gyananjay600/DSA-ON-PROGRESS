@@ -1,35 +1,41 @@
 package OOPS;
-class Flower{
+
+class Flower {
     int petals;
     String color;
     String name;
-    Flower(String name, String color, int petals){ // Parameterised Constructor
+
+    Flower(String name, String color, int petals) { // Parameterised Constructor
         this.name = name;
         this.color = color;
         this.petals = petals;
     }
-    Flower(){ // Default Constructor
+
+    Flower() { // Default Constructor
 
     }
-    Flower(Flower f){
+
+    Flower(Flower f) {
         this.name = f.name;
         this.color = f.color;
         this.petals = f.petals;
     }
-    void print(){
+
+    void print() {
         int petals = -5;
-        System.out.println(name+" "+color+" "+this.petals);
+        System.out.println(name + " " + color + " " + this.petals);
     }
 }
+
 public class Constructor {
     public static void main(String[] args) {
-        Flower f1 = new Flower("Rose","Red",25);
+        Flower f1 = new Flower("Rose", "Red", 25);
         f1.print();
 //        final int x = 10;
 //        System.out.println(x);
 //        x = 9;
 
-        Flower f2 = new Flower("Sunflower","Yellow",8);
+        Flower f2 = new Flower("Sunflower", "Yellow", 8);
         f2.print();
 
         Flower f3 = new Flower();

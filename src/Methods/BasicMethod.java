@@ -2,11 +2,11 @@ package Methods;
 
 public class BasicMethod {
 
-    public static void supriya(){
+    public static void supriya() {
         System.out.println("simran");
     }
 
-    public static void Gyana(){
+    public static void Gyana() {
         System.out.println("Hello! Pabitra");
     }
 

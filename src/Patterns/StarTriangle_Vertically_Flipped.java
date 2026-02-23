@@ -10,17 +10,17 @@ public class StarTriangle_Vertically_Flipped {
 
         //Method:2 (Two loops inside main loops)
 
-        for(int i = 1; i<=n; i++){ // lines
+        for (int i = 1; i <= n; i++) { // lines
 
 //            for(int j=n ;j>i;j--){ // spaces : another method
 //                System.out.print("  ");
 //            }
-            for(int j=1 ;j<=n-i;j++){ // spaces
+            for (int j = 1; j <= n - i; j++) { // spaces
                 System.out.print("  ");
             }
 
-            for(int j=1 ;j<=i;j++){ // stars
-                System.out.print(j+" ");
+            for (int j = 1; j <= i; j++) { // stars
+                System.out.print(j + " ");
             }
             System.out.println();
         }

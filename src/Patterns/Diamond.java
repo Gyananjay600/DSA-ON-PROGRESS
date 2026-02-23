@@ -7,19 +7,18 @@ public class Diamond {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n: ");
         int n = sc.nextInt();
-        int nsp = n-1, nst = 1;
-        for(int i=1;i<=2*n-1;i++){ // lines
-            for(int j=1;j<=nsp;j++){ // spaces
+        int nsp = n - 1, nst = 1;
+        for (int i = 1; i <= 2 * n - 1; i++) { // lines
+            for (int j = 1; j <= nsp; j++) { // spaces
                 System.out.print("  ");
             }
-            for(int j=1;j<=nst;j++){ // stars
+            for (int j = 1; j <= nst; j++) { // stars
                 System.out.print("* ");
             }
-            if(i<n){
+            if (i < n) {
                 nsp--;
                 nst += 2;
-            }
-            else{
+            } else {
                 nsp++;
                 nst -= 2;
             }

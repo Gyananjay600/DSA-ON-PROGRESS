@@ -7,8 +7,8 @@ public class NumberTriangle {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter  number:");
         int n = sc.nextInt();
-        for (int i = 1;i<=n;i++){ // rows
-            for(int j = 1;j<=i;j++){ // cols
+        for (int i = 1; i <= n; i++) { // rows
+            for (int j = 1; j <= i; j++) { // cols
                 System.out.print(j + " ");
 //                System.out.print((char)(j+64)+" ");
             }

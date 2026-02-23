@@ -8,6 +8,6 @@ public class CalculateAreaOfSquare {
         System.out.print("Enter the radius here :");
         double r = sc.nextDouble();
         double area = 3.141592 * r * r;
-        System.out.println("The area of circle is :"+area);
+        System.out.println("The area of circle is :" + area);
     }
 }
