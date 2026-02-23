@@ -42,12 +42,6 @@ I have organized the `src` folder into logical modules. Each folder contains hig
 
 ---
 
-## ▶️ Getting Started
-
-### Clone the Repo
-```bash
-git clone [https://github.com/Gyananjay600/DSA-On-PROGRESS.git](https://github.com/Gyananjay600/DSA-On-PROGRESS.git)
-
 ## 📬 Contact
 
 If you want to connect or suggest improvements:
