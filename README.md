@@ -1,45 +1,52 @@
-# 🚀 Java DSA – Basics (In Progress)
+# 🚀 Taiyari DSA – Java Learning Journey
 
-> This repository tracks my **Data Structures & Algorithms (DSA)** learning journey using **Java**. I have completed the **Java basics and foundational DSA concepts**, and this repo contains topic-wise practice programs inside the `src` folder.
+> This repository serves as a comprehensive log of my **Data Structures & Algorithms (DSA)** progress using **Java**. I am building a strong foundation in problem-solving, starting from basic syntax to advanced algorithmic patterns.
 
-## 📂 Project Structure
+---
 
-All my practice problems are organized topic-wise inside the `src` folder:
+## 📂 Project Roadmap & Structure
 
-```
-TayariDSA/
-├─ src/
-│  ├─ Arrays/           # 1D array programs & logic building
-│  ├─ TwoD Array/       # 2D array (matrix) problems
-│  ├─ Basics/           # Java syntax, input/output, variables
-│  ├─ Conditionals/     # if, if-else, switch-case programs
-│  ├─ LOOP/             # for, while, do-while loop problems
-│  ├─ Methods/          # functions/methods & modular code
-│  ├─ Patterns/         # classic star & number patterns
-│  ├─ PatternPractice/ # pattern problem practice set
-├─ .idea/               # IntelliJ IDEA config files
-├─ .gitignore
-├─ TayariDSA.iml
-└─ README.md
-```
+I have organized the `src` folder into logical modules. Each folder contains high-quality practice problems and implementations.
 
-## ▶️ How to Run the Code
+### 🟢 Level 1: Fundamentals
+* **Basics/** – Syntax, I/O operations, and data types.
+* **Conditionals/** – Logical flow using `if-else` and `switch-case`.
+* **LOOP/** – Iterative logic with `for`, `while`, and `do-while`.
+* **Methods/** – Modular programming and function implementation.
+* **Patterns/ & PatternPractice/** – Logic building through visual nested loops.
 
-### Clone the repository
+### 🟡 Level 2: Data Structures & OOPS
+* **Arrays/** – 1D array operations and memory management.
+* **TwoD_Array/** – Matrix manipulations and 2D grid logic.
+* **String/ & String_2/** – Comprehensive string handling and `StringBuilder` optimization.
+* **OOPS/** – Object-Oriented principles (Inheritance, Polymorphism, etc.).
 
+### 🟠 Level 3: Algorithmic Techniques
+* **BasicSortingAlgorithms/** – Bubble, Selection, and Insertion Sort.
+* **Array_TwoPointer/** – Optimization techniques for linear search/sorting.
+* **PrefixSum/** – Efficient range sum queries and cumulative logic.
+
+---
+
+## 📊 Current Progress
+
+| Topic | Status |
+| :--- | :--- |
+| **Java Basics & Methods** | ✅ Completed |
+| **Arrays & 2D Matrices** | ✅ Completed |
+| **Basic Sorting** | ✅ Completed |
+| **Object Oriented Programming** | ✅ Completed |
+| **Strings & String Manipulation** | 🔄 In Progress |
+| **Recursion & Backtracking** | ⏳ Coming Soon |
+| **Linked Lists, Stacks & Queues** | ⏳ Coming Soon |
+
+---
+
+## ▶️ Getting Started
+
+### Clone the Repo
 ```bash
-git clone https://github.com/Gyananjay600/DSA-On-PROGRESS.git
-```
-
-## 📈 Next Learning Plan
-
-* [ ] Strings
-* [ ] Recursion
-* [ ] Searching & Sorting
-* [ ] Linked List
-* [ ] Stack & Queue
-* [ ] Trees & Graphs
-* [ ] LeetCode / GFG Problems
+git clone [https://github.com/Gyananjay600/DSA-On-PROGRESS.git](https://github.com/Gyananjay600/DSA-On-PROGRESS.git)
 
 ## 📬 Contact
 
