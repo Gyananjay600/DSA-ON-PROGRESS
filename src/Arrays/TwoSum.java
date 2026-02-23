@@ -1,5 +1,5 @@
 package Arrays;
-
+// two pointer pattern
 public class TwoSum {
     boolean twoSum(int arr[], int target) {
         int n = arr.length;

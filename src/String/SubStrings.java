@@ -2,8 +2,17 @@ package String;
 
 public class SubStrings {
     public static void main(String[] args) {
-        String s = "Gyananjay";
-        System.out.println(s.substring(4)); // substring(i) -> it prints given index to last
-        System.out.println(s.substring(0,5)); // substring(i,j) -> it prints ith index to jth index - 1
+//        String s = "bottle";
+//        System.out.println(s.substring(1));
+//        System.out.println(s.substring(1,5)); // 1 to 4
+        String s = "abcd";
+        for(int i=0;i<s.length();i++){
+            for(int j=i;j<s.length();j++){
+                System.out.print(s.substring(i,j+1)+" "); // i to j
+            }
+        }
+
+//        String x = "123";
+//        int z = Integer.parseInt(x);
     }
 }
