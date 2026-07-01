@@ -1,4 +1,4 @@
-package Hashing;
+package HashMap;
 
 public class SumOfUniqueElements {
 
